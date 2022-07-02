@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Bash Shell Script to print half pyramid using number
+number=1
+echo "enter the rows : "
+read rows
+for((i=1; i<=rows; i++))
+do
+  for((j=1; j<=i; j++))
+	  do
+		    echo -n "$number "
+				    number=$((number + 1))
+				  done
+					  number=1
+						  echo
+							done
